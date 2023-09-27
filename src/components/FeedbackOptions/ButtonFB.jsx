@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { Wrapper, Button } from './ButtonFB.styled';
 
 export function FeedbackOptions({ options, onLeaveFeedback }) {
@@ -22,8 +21,3 @@ export function FeedbackOptions({ options, onLeaveFeedback }) {
     </Wrapper>
   );
 }
-
-FeedbackOptions.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.string.isRequired),
-  onLeaveFeedback: PropTypes.func,
-};

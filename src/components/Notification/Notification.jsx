@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { Message } from './Notification.styled';
 
 export function Notification({ message }) {
@@ -8,7 +7,3 @@ export function Notification({ message }) {
     </div>
   );
 }
-
-Notification.propTypes = {
-  message: PropTypes.string.isRequired,
-};
